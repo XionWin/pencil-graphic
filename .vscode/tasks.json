@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "copy_opengl_es_emulator",
+            "command" : "cp",
+            "args": ["-Force", "${workspaceFolder}/resources/Mali_OpenGL_ES_Emulator/*", "${workspaceFolder}/target/debug/"]
+        }
+    ]
+}

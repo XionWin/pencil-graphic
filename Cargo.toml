@@ -1,0 +1,7 @@
+[workspace]
+resolver = "1"
+members=[
+    "app",
+    "win32-rs",
+    "egl-rs"
+]
